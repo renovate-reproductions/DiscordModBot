@@ -63,10 +63,6 @@ configurations {
 
 repositories {
     mavenCentral()
-    maven {
-        name = "m2-dv8tion"
-        setUrl("https://m2.dv8tion.net/releases")
-    }
 }
 
 configure<JavaPluginExtension> {
